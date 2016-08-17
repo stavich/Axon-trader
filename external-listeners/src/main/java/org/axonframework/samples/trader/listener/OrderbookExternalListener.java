@@ -22,7 +22,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.axonframework.eventhandling.annotation.EventHandler;
+import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.samples.trader.api.orders.trades.TradeExecutedEvent;
 import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.JsonGenerator;
